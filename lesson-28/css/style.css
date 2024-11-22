@@ -1,0 +1,46 @@
+div {
+    padding: 10px 0 10px 0;
+}
+
+.some-text {
+    font-family: montserrat, arial, sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: justify;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Домашка */
+
+.open-sans {
+    font-family: "open sans";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    border-bottom: 2px solid gray;
+}
+
+.left {
+    text-decoration: line-through;
+    border-bottom: 2px solid gray;
+}
+
+.center {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid gray;
+}
+
+.px {
+    text-decoration: overline wavy;
+    word-spacing: 30px;
+    border-bottom: 2px solid gray;
+    text-shadow: 1px 1px 2px purple;
+}
+
+.px-2 {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
