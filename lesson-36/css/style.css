@@ -1,0 +1,27 @@
+
+.block {
+    background: #d4c2c2;
+    padding: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 700px;
+    overflow: auto;
+}
+
+.item {
+    display: inline-block;
+    background: #ceab77;
+    border-radius: 30px;
+    width: 350px;
+    padding: 20px;
+    margin: 0 10px 10px 0;
+    box-shadow: inset 0px 0px 10px #000;
+}
+
+.head {
+    font-size: 40px;
+}
+
+.text {
+    font-size: 25px;
+}
