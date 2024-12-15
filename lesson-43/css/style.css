@@ -1,0 +1,223 @@
+body {
+    font-family: montserrat, sans-serif, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background: #181e34;
+}
+
+.container {
+    max-width: 930px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button {
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header {
+    padding: 30px 0 36px;
+}
+
+.face {
+    padding: 120px 0;
+    background: url(../images/background.jpg) 50% 50% / 100% no-repeat;
+}
+
+.body {
+    padding: 120px 0;
+}
+
+.footer {
+    border-top: 1px solid #323952;
+    padding: 60px 0;
+}
+
+/* --------------------------------------------------------------- */
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo {
+    margin-right: auto;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 30px;
+}
+
+.nav__item:last-child {
+    margin-right: 36px;
+}
+
+.nav__button {
+    color: #2766ae;
+    padding: 14px 30px;
+}
+
+
+
+/* --------------------------------------------------------------- */
+
+.face__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.face__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.face__text-box {
+    max-width: 436px;
+}
+
+.face__text-1 {
+    margin-bottom: 15px;
+}
+
+.face__text-1 span {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #01a2cb;
+}
+
+.face__btn-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+}
+
+.face__button-1 {
+    padding: 18px 30px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    margin-bottom: 10px;
+}
+
+.face__button-2 {
+    padding: 18px 30px;
+    background: linear-gradient(129deg, #00a4cc 0%, #2766ae 100%);
+}
+
+/* --------------------------------------------------------------- */
+
+.body__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.body__title {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.body__subtitle {
+    max-width: 513px;
+}
+
+.body__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+}
+
+.body__item {
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
+    background: #197cb8;
+    width: 204px;
+    height: 141px;
+    margin: 0 28px 28px 0;
+}
+
+.body__item:nth-child(4) {
+    margin-right: 0;
+}
+
+.body__item:nth-child(8) {
+    margin-right: 0;
+}
+
+.body__item-title {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.body__item-subtitle {
+    max-width: 144px;
+    text-align: center;
+}
+
+.body__button {
+    min-width: 436px;
+    padding: 18px 30px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+}
+
+/* --------------------------------------------------------------- */
+
+.footer__inner {
+    display: flex;
+    padding-right: 89px;
+}
+
+.footer__logo-block {
+    max-width: 267px;
+    margin-right: auto;
+}
+
+.footer__logo {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer__list-1 {
+    margin-right: 117px;
+}
+
+.footer__item-main {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__item-text {
+    margin-bottom: 10px;
+}
+
+
+/* Я сначала полностью посмотрел ролик, потом через 2 дня сам сделал без подглядывний. Я старался, ушло 2 часа uwu */
+
+/* p.s. Кто прочитал, тот милашка */
